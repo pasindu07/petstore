@@ -31,4 +31,4 @@ You can run your application in dev mode that enables live coding using:
 
 ## Installing CURL and WGET
 
-sudo apt install curl wget
+    sudo apt install curl wget
