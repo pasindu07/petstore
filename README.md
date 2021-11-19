@@ -32,3 +32,13 @@ You can run your application in dev mode that enables live coding using:
 ## Installing CURL and WGET
 
     sudo apt install curl wget
+    
+## GET API
+
+To get All the pets you can simply run the command,
+        
+    curl -X GET http://localhost:8080/v1/petStore
+    
+The above command sends a GET request to the provided endpoint, which returns all of the available pets. - The HTTP method of the request is defined by X. A GET request, on the other hand, does not require it to be mentioned individually. As a result, the above line is the same as,
+
+    curl http://localhost:8080/v1/petStore
